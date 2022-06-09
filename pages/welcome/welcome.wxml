@@ -1,0 +1,10 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">  
+    <image class="avatar" src="/images/avatar/1.png"></image>
+
+    <text class="motto">hello</text>
+    <view class="journey-container" bindtap="onTap">
+        <text class="journey" >点击进入</text>
+    </view>
+
+</view>

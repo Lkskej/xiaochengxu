@@ -1,0 +1,6 @@
+{
+
+  "navigationBarTitleText":"海报页",
+  "enablePullDownRefresh": true,
+	"onReachBottomDistance": 200
+}

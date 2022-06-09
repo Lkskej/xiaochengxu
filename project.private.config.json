@@ -1,23 +1,40 @@
 {
+  "setting": {},
   "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
     "miniprogram": {
       "list": [
         {
-          "name": "日志",
-          "pathName": "pages/logs/logs",
+          "name": "海报页",
+          "pathName": "pages/posts/posts",
           "query": "",
+          "scene": null
+        },
+        {
+          "name": "详情页",
+          "pathName": "pages/posts/post-detail/post-detail",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "电影页",
+          "pathName": "pages/movies/movies",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "电影更多页面",
+          "pathName": "pages/movies/more-movie/more-movie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "详情页",
+          "pathName": "pages/movies/movie-detail/movie-detail",
+          "query": "id=1302425",
           "scene": null
         }
       ]
     }
-  }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
 }
